@@ -18,7 +18,7 @@ const EmailVerificationTool = () => {
     setError(null)
 
     try {
-      const response = await fetch("https://mailcheck.leadcourt.cloud/api/verify-email", {
+      const response = await fetch("https://leadcourt.cloud/api/verify-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
